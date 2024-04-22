@@ -6,35 +6,27 @@
 #include <math.h>
 
 int main(){
-double a; 
-double b;
-double c;
-double x1;
-double x2;
+int a; 
+int b;
+int c;
+
   
 printf("Entre com o valor de a: ");
-int deu_certo = scanf("%lf", &a);
+int deu_certo = scanf("%i", &a);
 
 printf("Entre com o valor de b: ");
-deu_certo = scanf("%lf", &b);
+deu_certo = scanf("%i", &b);
 
 printf("Entre com o valor de c: ");
-deu_certo = scanf("%d", &c);
+deu_certo = scanf("%i", &c);
 
-print ( )
+int x1 = (-b - sqrt (b*b - 4*a* c))/2* a;
+printf("O valor de x1 eh %i\n", x1);
+int x2 = (-b + sqrt (b*b - 4*a* c))/2* a; 
+printf( "O valor de x2 eh %i\n", x2);
   
   
-
-
-
-double raízes_da_equacao = -b +||- sqrt (b^2 - 4*a* c)/2* a;
-printf("O valor de x1 e x2 eh %d\n", x1, x2);
-  
-  
-  
-  
-  
-return 0
+return 0;
 }
 
 
