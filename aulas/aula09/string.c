@@ -13,3 +13,5 @@ int main () {
   printf("O tamanho da string eh %i\n", tamanho);
   printf("As strings nome e mensagem sao iguais? %i\n", strcmp(nome, mensagem));
 }
+return 0;
+}
